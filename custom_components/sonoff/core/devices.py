@@ -506,6 +506,8 @@ DEVICES = {
         spec(XSensor, param="phase_0_v", uid="voltage"),
         spec(XEnergyTotal, param="totalPower", uid="energy"),
     ],
+    # NSPanel Pro, https://github.com/setton1/SonoffLAN
+    228: [XTemperatureTH, XPanelAlarm, XPanelBuzzer, XPanelScreen],
     # https://github.com/AlexxIT/SonoffLAN/issues/1634
     258: [XCover, LED, RSSI],
     # CK-BL602-SWP1-02(262), https://github.com/AlexxIT/SonoffLAN/issues/1630
